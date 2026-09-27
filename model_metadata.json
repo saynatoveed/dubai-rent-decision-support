@@ -1,0 +1,26 @@
+{
+    "model": "XGBoost",
+    "training_period": "2010-2024",
+    "final_test_period": "2025",
+    "numeric_features": [
+        "actual_area_clean",
+        "contract_year"
+    ],
+    "categorical_features": [
+        "area_name_en",
+        "property_config",
+        "contract_month",
+        "contract_reg_type_en"
+    ],
+    "n_estimators": 1200,
+    "learning_rate": 0.05,
+    "max_depth": 8,
+    "min_child_weight": 20,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "prediction_range_half_width_AED": 31397.512499999997,
+    "final_test_records": 579749,
+    "final_test_MAE": 15590.617818080205,
+    "final_test_RMSE": 65723.55480439709,
+    "final_test_R2": 0.6301477639497303
+}
