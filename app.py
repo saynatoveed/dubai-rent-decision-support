@@ -22,9 +22,7 @@ st.set_page_config(
 # LOAD FROZEN MODEL
 # ==================================================
 
-ARTIFACT_DIR = Path(
-    "final_model_artifacts"
-)
+ARTIFACT_DIR = Path(".")
 
 model = joblib.load(
     ARTIFACT_DIR /
